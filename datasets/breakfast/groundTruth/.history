@@ -1,0 +1,119 @@
+2016-09-09.11-22-41 cp /media/datasets/data_hilde/Breakfast/segmentation_hmm.rar .
+2016-09-09.11-22-52 unrar x segmentation_hmm.rar 
+2016-09-09.11-23-21 mv segmentation_hmm/state_segmentation_s1/ .
+2016-09-09.11-23-23 rm -rf segmentation_hmm*
+2016-09-09.11-25-32 cp state_segmentation_s1/P03_cam01_P03_cereals.txt .
+2016-09-09.11-25-40 vim P03_cam01_P03_cereals.txt 
+2016-09-09.11-25-47 rm -rf state_segmentation_s1/
+2016-09-09.11-25-59 cp /media/datasets/data_hilde/Breakfast/segmentation_hmm.rar .
+2016-09-09.11-26-08 unrar x segmentation_hmm.rar 
+2016-09-09.11-26-19 mv segmentation_hmm/state_segmentation_s1/ .
+2016-09-09.11-26-21 rm -rf segmentation_hmm*
+2016-09-09.11-27-46 vim P03_cam01_P03_cereals.txt 
+2016-09-09.11-28-00 cp ../../python/decoder/mapping.txt .
+2016-09-09.11-28-06 vim mapping.txt 
+2016-09-09.11-28-13 cut -f1 -d' ' mapping.txt > out
+2016-09-09.11-28-16 mv out mapping.txt 
+2016-09-09.11-28-28 vim mapping.txt 
+2016-09-09.11-30-44 vim bla.py
+2016-09-09.11-30-47 chmod +x bla.py 
+2016-09-09.11-30-48 ./bla.py 
+2016-09-09.11-30-56 vim bla.py 
+2016-09-09.11-30-57 ./bla.py 
+2016-09-09.11-31-26 vim bla.py 
+2016-09-09.11-31-26 ./bla.py 
+2016-09-09.11-41-30 vim bla.py 
+2016-09-09.11-41-43 vim bla.py 
+2016-09-09.11-41-44 ./bla.py 
+2016-09-09.11-42-17 vim bla.py 
+2016-09-09.11-42-18 ./bla.py 
+2016-09-09.11-42-22 vim bla.py 
+2016-09-09.11-42-27 vim out 
+2016-09-09.11-43-33 vim bla.py 
+2016-09-09.11-43-37 rm P03_cam01_P03_cereals.txt 
+2016-09-09.11-43-49 vim bla.py 
+2016-09-09.11-43-52 rm out 
+2016-09-09.11-43-57 vim bla.py 
+2016-09-09.11-44-05 ls state_segmentation_s1/*.txt | less
+2016-09-09.11-44-08 ls state_segmentation_s1/*.txt | less
+2016-09-09.11-44-24 for X in $(ls --color=none state_segmentation_s1/*.txt); do echo $X; done | less
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-35 for X in $(ls --color=none state_segmentation_s1/*.txt); do ./bla.py $X; done
+2016-09-09.11-44-44 for X in $(ls --color=none state_segmentation_s1/*.txt); do echo $X; done | less
+2016-09-09.11-44-44 for X in $(ls --color=none state_segmentation_s1/*.txt); do echo $X; done | less
+2016-09-09.11-44-49 vi mapping.txt 
+2016-09-09.11-44-51 mkdir gt
+2016-09-09.11-47-52 for X in $(ls --color=none state_segmentation_s1/*.txt); do X=$(echo $X | cut -f2 -d'/'); ./bla.py $X; done
+2016-09-09.11-49-55 rm -rf state_segmentation_s1/
+2016-09-09.11-49-57 rm mapping.txt 
+2016-09-09.11-49-59 rm bla.py 
+2016-09-09.11-50-06 mv gt/*.txt .
+2016-09-09.11-50-09 rm -rf gt/
+2016-09-09.11-50-12 ls | wc -l
+2016-09-27.14-23-35 vim P03_cam01_P03_cereals.txt 
+2016-09-27.14-26-57 vim P03_cam01_P03_cereals.txt 
+2016-09-29.18-36-33 vim P03_cam01_P03_cereals.txt 
+2016-09-29.18-38-28 vim P03_cam01_P03_cereals.txt 
+2016-09-29.18-38-55 cat P03_cam01_P03_cereals.txt | nl
+2016-09-29.18-39-08 cat P03_cam01_P03_cereals.txt | nl | sed -e "$ d"
+2016-09-29.18-39-44 sed -i "$ d" *.txt
+2016-10-06.19-17-20 vim P41_webcam02_P41_coffee.txt
+2016-10-06.19-17-29 vim P03_cam01_P03_cereals.txt 
+2016-10-06.19-17-38 cat P03_cam01_P03_cereals.txt | uniq -c
+2016-10-06.19-17-50 uniq --help
+2016-10-17.16-07-08 wc -l *.txt | less
+2016-10-17.16-07-13 wc -l *.txt > out
+2016-10-17.16-07-18 vim out 
+2016-10-17.16-12-47 sort -n out | less
+2016-10-17.16-13-58 vim out 
+2016-10-17.16-15-03 sort -n out | less
+2016-10-17.16-15-05 rm out 
+2016-10-17.16-15-14 wc -l 
+2016-10-17.16-15-18 wc -l *.txt > out
+2016-10-17.16-15-24 vim out 
+2016-10-17.16-15-30 sort -n out | less
+2016-10-17.16-15-52 vim P51_webcam01_P51_coffee.txt
+2016-10-17.16-15-58 sort -n out | less
+2016-10-17.16-16-07 vim P08_webcam01_P08_coffee.txt
+2016-10-17.16-16-12 sort -n out | less
+2016-10-17.16-16-22 vim P12_cam01_P12_tea.txt | less
+2016-10-17.16-16-31 rm out
+2016-10-17.16-16-52 wc -l *.txt > out
+2016-10-17.16-16-59 sort -n out | less
+2016-10-17.16-17-07 vim P12_webcam01_P12_tea.txt
+2016-10-17.16-17-13 rm out 
+2016-11-07.18-11-59 wc -l *.txt
+2016-11-07.18-12-50 python
+2016-11-07.18-31-38 cat *.txt | sort | uniq -c
+2016-11-07.18-31-46 cat *.txt | wc -l
+2016-11-07.18-31-59 python
+2016-11-09.17-26-05 ls | wc -l
+2016-11-09.17-26-11 cat *.txt | wc -l
+2016-11-09.17-27-19 python
+2016-11-09.17-31-49 wc -l *.txt | less
+2016-11-09.17-31-58 wc -l *.txt | sort -n | less
+2016-11-09.17-47-22 wc -l *.txt | sort -n | less
+2016-11-11.18-03-04 wc -l P08_webcam01_P08_milk.txt 
+2016-11-11.18-18-18 python
+2016-11-11.18-18-23 python
+2016-11-11.18-18-28 python
+2017-01-24.11-17-00 vim P34_stereo01_P34_tea.txt
+2017-04-25.12-03-37 wc -l P03_cam01_P03_cereals.txt | cut -f1 -d' 'vf
+2017-04-25.12-04-28 wc -l P03_cam01_P03_cereals.txt | cut -f1 -d' '
+2017-04-26.10-13-05 wc -l P03_cam01_P03_cereals.txt | cut -f1 -d' '
+2017-04-26.10-14-52 man wc
+2017-04-26.10-14-56 wc -l P03_cam01_P03_cereals.txt 
+2017-04-26.10-15-28 man cut
+2017-09-08.13-26-48 find . -name '*.txt' | xargs wc -l
+2017-11-15.16-13-10 find . -name '*.txt' | xargs wc -l

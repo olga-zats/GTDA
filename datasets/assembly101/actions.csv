@@ -1,0 +1,203 @@
+action_id,verb_id,noun_id,action_cls,verb_cls,noun_cls
+0,2,4,inspect toy,inspect,toy
+1,0,0,attach cabin,attach,cabin
+2,1,0,detach cabin,detach,cabin
+3,1,3,detach wheel,detach,wheel
+4,0,3,attach wheel,attach,wheel
+5,4,1,screw chassis,screw,chassis
+6,6,9,demonstrate functionality,demonstrate,functionality
+7,3,1,unscrew chassis,unscrew,chassis
+8,0,2,attach interior,attach,interior
+9,1,5,detach roof,detach,roof
+10,0,5,attach roof,attach,roof
+11,1,2,detach interior,detach,interior
+12,0,7,attach bumper,attach,bumper
+13,0,6,attach body,attach,body
+14,1,7,detach bumper,detach,bumper
+15,1,6,detach body,detach,body
+16,0,8,attach base,attach,base
+17,1,8,detach base,detach,base
+18,3,2,unscrew interior,unscrew,interior
+19,0,10,attach arm,attach,arm
+20,5,0,attempt to attach cabin,attempt to attach,cabin
+21,0,11,attach arm connector,attach,arm connector
+22,4,2,screw interior,screw,interior
+23,2,1,inspect chassis,inspect,chassis
+24,1,10,detach arm,detach,arm
+25,0,12,attach bucket,attach,bucket
+26,1,12,detach bucket,detach,bucket
+27,1,11,detach arm connector,detach,arm connector
+28,5,6,attempt to attach body,attempt to attach,body
+29,1,15,detach light,detach,light
+30,0,14,attach water tank,attach,water tank
+31,0,15,attach light,attach,light
+32,1,1,detach chassis,detach,chassis
+33,0,13,attach dump bed,attach,dump bed
+34,5,7,attempt to attach bumper,attempt to attach,bumper
+35,1,14,detach water tank,detach,water tank
+36,0,16,attach door,attach,door
+37,1,13,detach dump bed,detach,dump bed
+38,5,8,attempt to attach base,attempt to attach,base
+39,0,18,attach step,attach,step
+40,0,17,attach excavator arm,attach,excavator arm
+41,1,18,detach step,detach,step
+42,1,17,detach excavator arm,detach,excavator arm
+43,1,19,detach track,detach,track
+44,1,16,detach door,detach,door
+45,0,19,attach track,attach,track
+46,0,1,attach chassis,attach,chassis
+47,0,20,attach grill,attach,grill
+48,0,23,attach crane arm,attach,crane arm
+49,1,23,detach crane arm,detach,crane arm
+50,4,0,screw cabin,screw,cabin
+51,0,21,attach turntable base,attach,turntable base
+52,0,27,attach sound module,attach,sound module
+53,1,20,detach grill,detach,grill
+54,3,0,unscrew cabin,unscrew,cabin
+55,1,26,detach roller,detach,roller
+56,1,21,detach turntable base,detach,turntable base
+57,1,24,detach turntable top,detach,turntable top
+58,0,24,attach turntable top,attach,turntable top
+59,5,10,attempt to attach arm,attempt to attach,arm
+60,0,25,attach transport cabin,attach,transport cabin
+61,1,25,detach transport cabin,detach,transport cabin
+62,1,27,detach sound module,detach,sound module
+63,2,0,inspect cabin,inspect,cabin
+64,0,22,attach container,attach,container
+65,0,26,attach roller,attach,roller
+66,0,31,attach mixer,attach,mixer
+67,5,2,attempt to attach interior,attempt to attach,interior
+68,1,29,detach engine cover,detach,engine cover
+69,1,22,detach container,detach,container
+70,0,32,attach nut,attach,nut
+71,0,28,attach strap,attach,strap
+72,0,29,attach engine cover,attach,engine cover
+73,4,10,screw arm,screw,arm
+74,3,7,unscrew bumper,unscrew,bumper
+75,5,11,attempt to attach arm connector,attempt to attach,arm connector
+76,1,31,detach mixer,detach,mixer
+77,7,0,attempt to detach cabin,attempt to detach,cabin
+78,4,6,screw body,screw,body
+79,1,35,detach clamp arm,detach,clamp arm
+80,3,10,unscrew arm,unscrew,arm
+81,1,33,detach bulldozer arm,detach,bulldozer arm
+82,7,6,attempt to detach body,attempt to detach,body
+83,4,5,screw roof,screw,roof
+84,1,36,detach ladder basket,detach,ladder basket
+85,0,30,attach mixer stand,attach,mixer stand
+86,3,6,unscrew body,unscrew,body
+87,3,5,unscrew roof,unscrew,roof
+88,1,34,detach roller arm,detach,roller arm
+89,1,30,detach mixer stand,detach,mixer stand
+90,1,28,detach strap,detach,strap
+91,2,6,inspect body,inspect,body
+92,0,35,attach clamp arm,attach,clamp arm
+93,0,39,attach back seat,attach,back seat
+94,1,40,detach push frame,detach,push frame
+95,0,38,attach jackhammer arm,attach,jackhammer arm
+96,8,1,attempt to screw chassis,attempt to screw,chassis
+97,0,36,attach ladder basket,attach,ladder basket
+98,0,34,attach roller arm,attach,roller arm
+99,1,41,detach cabin window,detach,cabin window
+100,0,33,attach bulldozer arm,attach,bulldozer arm
+101,1,38,detach jackhammer arm,detach,jackhammer arm
+102,5,13,attempt to attach dump bed,attempt to attach,dump bed
+103,0,41,attach cabin window,attach,cabin window
+104,9,44,position figurine,position,figurine
+105,5,5,attempt to attach roof,attempt to attach,roof
+106,1,39,detach back seat,detach,back seat
+107,0,45,attach dashboard,attach,dashboard
+108,0,40,attach push frame,attach,push frame
+109,0,42,attach cylinder,attach,cylinder
+110,3,11,unscrew arm connector,unscrew,arm connector
+111,1,47,detach jackhammer,detach,jackhammer
+112,10,44,remove figurine,remove,figurine
+113,0,53,attach cabin back,attach,cabin back
+114,0,50,attach ladder,attach,ladder
+115,0,43,attach lid,attach,lid
+116,1,45,detach dashboard,detach,dashboard
+117,0,47,attach jackhammer,attach,jackhammer
+118,1,37,detach hook,detach,hook
+119,0,37,attach hook,attach,hook
+120,1,51,detach blade,detach,blade
+121,5,3,attempt to attach wheel,attempt to attach,wheel
+122,0,49,attach spoiler,attach,spoiler
+123,1,43,detach lid,detach,lid
+124,5,21,attempt to attach turntable base,attempt to attach,turntable base
+125,4,3,screw wheel,screw,wheel
+126,0,51,attach blade,attach,blade
+127,1,42,detach cylinder,detach,cylinder
+128,1,46,detach basket,detach,basket
+129,0,46,attach basket,attach,basket
+130,1,52,detach fire extinguisher,detach,fire extinguisher
+131,0,52,attach fire extinguisher,attach,fire extinguisher
+132,1,48,detach rocker panel,detach,rocker panel
+133,5,32,attempt to attach nut,attempt to attach,nut
+134,4,7,screw bumper,screw,bumper
+135,1,55,detach clamp,detach,clamp
+136,1,50,detach ladder,detach,ladder
+137,7,2,attempt to detach interior,attempt to detach,interior
+138,0,48,attach rocker panel,attach,rocker panel
+139,1,32,detach nut,detach,nut
+140,5,14,attempt to attach water tank,attempt to attach,water tank
+141,5,17,attempt to attach excavator arm,attempt to attach,excavator arm
+142,1,54,detach tilter,detach,tilter
+143,0,54,attach tilter,attach,tilter
+144,0,55,attach clamp,attach,clamp
+145,4,22,screw container,screw,container
+146,1,49,detach spoiler,detach,spoiler
+147,3,12,unscrew bucket,unscrew,bucket
+148,3,8,unscrew base,unscrew,base
+149,3,20,unscrew grill,unscrew,grill
+150,3,28,unscrew strap,unscrew,strap
+151,0,56,attach connector,attach,connector
+152,7,8,attempt to detach base,attempt to detach,base
+153,4,8,screw base,screw,base
+154,5,29,attempt to attach engine cover,attempt to attach,engine cover
+155,5,12,attempt to attach bucket,attempt to attach,bucket
+156,3,30,unscrew mixer stand,unscrew,mixer stand
+157,2,13,inspect dump bed,inspect,dump bed
+158,5,19,attempt to attach track,attempt to attach,track
+159,7,3,attempt to detach wheel,attempt to detach,wheel
+160,1,53,detach cabin back,detach,cabin back
+161,1,57,detach windshield,detach,windshield
+162,0,57,attach windshield,attach,windshield
+163,5,16,attempt to attach door,attempt to attach,door
+164,2,22,inspect container,inspect,container
+165,5,33,attempt to attach bulldozer arm,attempt to attach,bulldozer arm
+166,4,25,screw transport cabin,screw,transport cabin
+167,3,22,unscrew container,unscrew,container
+168,7,46,attempt to detach basket,attempt to detach,basket
+169,3,24,unscrew turntable top,unscrew,turntable top
+170,1,58,detach engine,detach,engine
+171,4,11,screw arm connector,screw,arm connector
+172,4,37,screw hook,screw,hook
+173,4,13,screw dump bed,screw,dump bed
+174,4,28,screw strap,screw,strap
+175,1,56,detach connector,detach,connector
+176,7,15,attempt to detach light,attempt to detach,light
+177,2,14,inspect water tank,inspect,water tank
+178,0,58,attach engine,attach,engine
+179,5,34,attempt to attach roller arm,attempt to attach,roller arm
+180,3,37,unscrew hook,unscrew,hook
+181,5,42,attempt to attach cylinder,attempt to attach,cylinder
+182,3,3,unscrew wheel,unscrew,wheel
+183,7,23,attempt to detach crane arm,attempt to detach,crane arm
+184,3,13,unscrew dump bed,unscrew,dump bed
+185,5,25,attempt to attach transport cabin,attempt to attach,transport cabin
+186,3,49,unscrew spoiler,unscrew,spoiler
+187,3,43,unscrew lid,unscrew,lid
+188,3,26,unscrew roller,unscrew,roller
+189,4,24,screw turntable top,screw,turntable top
+190,1,59,detach fire equipment,detach,fire equipment
+191,4,48,screw rocker panel,screw,rocker panel
+192,5,48,attempt to attach rocker panel,attempt to attach,rocker panel
+193,4,26,screw roller,screw,roller
+194,3,29,unscrew engine cover,unscrew,engine cover
+195,4,30,screw mixer stand,screw,mixer stand
+196,4,20,screw grill,screw,grill
+197,5,28,attempt to attach strap,attempt to attach,strap
+198,0,59,attach fire equipment,attach,fire equipment
+199,1,60,detach battery,detach,battery
+200,0,60,attach battery,attach,battery
+201,5,27,attempt to attach sound module,attempt to attach,sound module
