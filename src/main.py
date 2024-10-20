@@ -40,7 +40,7 @@ parser.add_argument('--epoch', default=85, type=int)
 parser.add_argument('--vis', action='store_true')
 
 # data
-parser.add_argument('--ds', default='bf')  # 50s, assembly
+parser.add_argument('--ds', default='bf')  # assembly
 parser.add_argument('--sample_rate', default=1, type=int)
 parser.add_argument('--part_obs', action='store_true')
 
@@ -72,7 +72,7 @@ parser.add_argument('--diff_obj', type=str, default='pred_x0')
 
 
 # datasets
-# Bf and 50s
+# Bf 
 parser.add_argument('--split')
 parser.add_argument('--vid_list_file')
 parser.add_argument('--vid_list_file_test')
