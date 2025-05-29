@@ -72,9 +72,6 @@ For changing the training and evaluation splits (for Breakfast dataset),
 as well as values of other hyper-parameters, modify the scripts accordingly.
 
 
-### 2. Pretrained Stochastic Models
-Coming soon!
-
 
 ## Deterministic Models
 
@@ -88,9 +85,6 @@ To evaluate the **deterministic** anticipation model, run the corresponding scri
 ```bash
 bash scripts/determ/predict_<dataset>_determ.sh
 ```
-
-### 2. Pretrained Deterministic Models
-Coming soon!
 
 
 ## Acknowledgement
